@@ -22,10 +22,10 @@ while 条件:
 
 ```python
 # 倒计时
-count = 5
-while count > 0:
+count = 5   # 初始倒计时为5
+while count > 0:    # 当count大于0时，执行循环体
     print(count)
-    count -= 1
+    count -= 1  # 每次循环结束后，将count减1
 print("发射！")
 ```
 
@@ -34,8 +34,8 @@ print("发射！")
 ### break - 跳出循环
 ```python
 while True:
-    password = input("请输入密码: ")
-    if password == "123456":
+    password = input("请输入密码: ")    #input()函数用于获取用户输入，返回一个字符串
+    if password == "123456":    #这个是判断密码是否等于123456
         print("密码正确！")
         break
 ```

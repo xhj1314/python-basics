@@ -33,17 +33,17 @@ print("\n")             # 打印空行分隔
 
 # 示例4：用户输入验证
 password = ""
-while password != "123456":
-    password = input("请输入密码: ")
+while password != "123456":  # 当密码不等于123456时循环
+    password = input("请输入密码: ")     # 提示用户输入密码
 print("密码正确！")
 print("\n")
 
 # 示例5：遍历列表
-fruits = ["苹果", "香蕉", "橙子"]
-index = 0
-while index < len(fruits):
-    print(f"水果: {fruits[index]}")
-    index += 1
+fruits = ["苹果", "香蕉", "橙子"]  # 定义一个包含3个元素的列表
+index = 0    # 初始索引设为0
+while index < len(fruits):  # 当索引小于列表长度时循环
+    print(f"水果: {fruits[index]}")  # 打印当前索引对应的水果
+    index += 1  # 每次循环结束后，将索引加1
 
 # 注意：
 # 1. 条件必须最终变为False，否则会无限循环

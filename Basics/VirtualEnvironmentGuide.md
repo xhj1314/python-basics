@@ -34,6 +34,7 @@ Python 内置了 venv 模块用于创建虚拟环境。
 
 ```bash
 # 创建名为 myVenv 的虚拟环境
+# 也可以把myVenv替换为其他名称，这个是示例
 python -m venv myVenv
 ```
 
